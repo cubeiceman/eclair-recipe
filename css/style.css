@@ -90,10 +90,7 @@ th {
 
 .image {
   border: 3px solid #5C4033;
-  background-image: url("../htm/eclair.png");
-  background-size: cover;
   height: 671px;
-  background-position: center;
   margin-bottom: 10px
 }
 
