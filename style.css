@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+  color: black;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: #C4CCB7;
+  background-size: auto;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+div {
+  background-color: none;
+  border: 0px solid black;
+  border-radius: 15px;
+}
+
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+li::marker {
+  color: orange;
+}
+
+p {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 110%;
+}
+
+ul {
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  width: 30%;
+  border: 2px solid black;
+  margin: 0 auto 5%;
+  width = 100%;
+  border-radius: 15px;
+  column-width: 10%;
+  font-size: 20px;
+  background-color: #FFFDD0;
+  padding: 1%;
+}
+
+td, b {
+  color: #5C4033;
+}
+
+th {
+  width: 40%;
+  background-color: yellow;
+  border-radius: 15px;
+}
+
+.nutrition_link {
+  border-top: 5px solid black;
+  padding-bottom: 1%;
+  border-radius: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.box-inside {
+  width: 50%;
+  float: left;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.image {
+  border: 3px solid #5C4033;
+  background-image: url("../htm/eclair.png");
+  background-size: cover;
+  height: 671px;
+  background-position: center;
+  margin-bottom: 10px
+}
+
+.image2 {
+  border: 3px solid #5C4033;
+  border-radius: 15px;
+  width: 80%;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.caption {
+  display: block;
+  font-size: 150%;
+  font-family: "Lucida Handwriting";
+  margin-left: 0;
+  margin-top: 500px;
+  color: black;
+  width: 20%;
+  position: relative;
+}
+
+.flex-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flex-box>div {
+  flex: 50%;
+}
+
+.flex-box2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  margin-bottom: 5%;
+  font-size: 150%;
+  background-color: #FFFDD0;
+}
+
+.flex-box2>div {
+  flex: 1 1 33%;
+  padding: 1%;
+}
+
+.ingredients {
+  flex: 1;
+  border-radius: 0;
+  border-right: 5px solid #E9A290;
+}
+
+.directions {
+  padding-left: 0;
+  padding-right: auto;
+  flex: 1;
+  border-radius: 0;
+  border-left: 0px solid #E9A290;
+}
+
+.divider {
+  flex: 0.1;
+  border-radius: 0;
+  border-right: 6px solid red;
+}
+
+.editor {
+  margin-top: 40px;
+}
