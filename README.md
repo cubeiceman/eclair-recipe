@@ -1,5 +1,5 @@
 # eclair-recipe
-Assignment name: suhe-BasicCSS-070724
+Assignment name: suhe-BasicCSS-070724  
 Recipe for eclairs.  
 Original recipe: https://www.allrecipes.com/recipe/19010/eclairs-ii/  
 Eclair picture 1: https://commons.wikimedia.org/wiki/File:Eclair_Chocolat_LMDC_2.png  
