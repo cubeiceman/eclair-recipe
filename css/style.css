@@ -194,3 +194,7 @@ form p {
 #home-link {
   font-size: 150%;
 }
+
+#footer {
+  float: right;
+}
