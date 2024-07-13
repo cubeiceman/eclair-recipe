@@ -10,7 +10,7 @@
 
 <body>
   <!--INTRO-->
-  <script src="script.js"></script>
+  <script src="./js/script.js"></script>
   <h1 style="font-size: 300%;">&Eacute;clairs</h1>
   <h2>Recipe by: Patty Stockton</h2>
   <h2>Link to <a href="https://www.allrecipes.com/recipe/19010/eclairs-ii/" target="_blank">&eacute;clairs</a></h2>
@@ -18,6 +18,30 @@
     <img src="./htm/eclair.png" alt="eclairs" class="image">
     <figcaption><a href="https://commons.wikimedia.org/wiki/File:Eclair_Chocolat_LMDC_2.png">LMDCWIKI</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons</figcaption>
   </figure>
+
+  
+  <!---JS STUFF-->
+  <form>
+    <fieldset class="hide">
+      <h1>Conversion</h1>
+      <label for="convert"></label>
+      <input type="text" id="convert" name="convert" value="tablespoons">
+      <p class="inline-block">=</p>
+      <label for="convert-back"></label>
+      <input type="text" id="convert-back" name="convert-back" value="cups">
+    </fieldset>
+
+    <h1>Rate this recipe</h1>
+    <fieldset>
+      <legend>What skill level is this recipe?</legend>
+      <input type="radio" id="easy" name="diff" value="easy">
+      <label for="easy">Easy</label>
+      <input type="radio" id="medium" name="diff" value="intermediate">
+      <label for="medium">Intermediate</label>
+      <input type="radio" id="hard" name="diff" value="hard">
+      <label for="hard">Hard</label>
+    </fieldset>
+  </form>
 
   
   <!--INFO-->
